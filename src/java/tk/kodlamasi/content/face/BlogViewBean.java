@@ -20,7 +20,7 @@ import tk.kodlamasi.content.repository.BlogRepository;
 public class BlogViewBean {
     private Blog blog;
 
-    public BlogViewBean() {
+    public BlogViewBean() {//ayrıca Kodlayıp buradan çağırabilirdin
         HttpServletRequest request = (HttpServletRequest) FacesContext
                 .getCurrentInstance().getExternalContext().getRequest();
         long blogId=0;
